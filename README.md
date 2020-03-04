@@ -5,6 +5,7 @@
 ## 使用库： pillow, opencv-python, numpy  
 
 ## 目录结构：
+### ESP32_BadApple 下位机程序存放目录    
 ### conv2/ 转换完成的1位图目录
 ### code/ 转换成字码的文件目录   
 ### video/ 待转换的视频目录    
