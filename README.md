@@ -3,7 +3,8 @@
 ## B站主页 https://space.bilibili.com/23106193 有想法和建议欢迎私信我
 ## 开发工具：pycharm 环境：Anaconda3（python 3.7.4）  
 ## 使用库： pillow, opencv-python, numpy  
-
+## 注意 图片和字码文件都已打包 请解压后使用    
+##  
 ## 目录结构：
 ### ESP32_BadApple 下位机程序存放目录    
 ### conv2/ 转换完成的1位图目录
@@ -19,6 +20,6 @@
 ### badapple.fc badapple 30帧的字码集合文件
 ### conv.py 转换使用的模块
 ### videoCut.py 视频切片用模块 
-    
+### 
 ## 2020-03-04： 
 ### 完成创建，注释添加
