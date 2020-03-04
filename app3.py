@@ -26,8 +26,8 @@ def main():
         # 接收客户端发送过来的请求
         # recv_data = new_client_socket.recv(1024)
         # print(recv_data)
-        res = conv.flTodic('badapple.fc')
-        fc_len = int(res['fc_len'])
+        res = conv.flTodic('badapple.fc')  # 读取.fc文件
+        fc_len = int(res['fc_len'])  # 获取总帧数
         print(f'文件长度：{fc_len}')
         for dat in range(fc_len):
             start_time = time.perf_counter()
